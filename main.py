@@ -14,3 +14,9 @@ cnum = len(numbers[0])
 # ******************************
 # Make your Code
 # ******************************
+
+for i in range(len(numbers[0])):
+    colsum = 0
+    for j in range(len(numbers)):
+        colsum += numbers[j][i]
+    print(colsum)
